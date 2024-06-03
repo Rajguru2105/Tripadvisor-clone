@@ -16,6 +16,7 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .navbar__logo img{
     height: 40px;
@@ -159,7 +160,7 @@
 .travel__choices{
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 .travel__choices pre{
     width: 1120px;
@@ -342,8 +343,9 @@
     display: none;
 }
 @media screen and (max-width: 1160px) {
+    
     .navbar__title{
-        display: none;
+        display: none
     }
     .header h1{
         font-size: 30px
@@ -385,5 +387,14 @@
     .footer__s1__title i, .footer__s2__title i, .footer__s3__title i{
         display: block;
         cursor: pointer;
+    }
+}
+@media screen and (max-width:780px) {
+    .container__img img{
+        width: 400px;
+        height: 400px;
+    }
+    .navbar__title {
+        display: none;
     }
 }
