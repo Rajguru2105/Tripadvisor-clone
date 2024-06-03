@@ -369,13 +369,7 @@
     .explore_img img{
        width: 300px;
     }
-    .more3{
-        display: none;
-    }
-    .arrow {
-        display: block;
-        cursor: pointer;
-    }
+  
     .sponsor__image img{
         width: 800px;
     }
@@ -411,5 +405,21 @@
     .travel__choices pre{
         font-size: 11px;
         margin-left: 10px;
+    }
+}
+@media screen and (max-width:500px) {
+    .travel_img{
+        width: 200px;
+    }
+    .explore_img img {
+        width: 200px;
+    }
+    .explore_img {
+        width: 220px;
+    }
+    .explore_img p{
+        font-size: 11px;
+        padding: 15px;
+        text-align: left;
     }
 }
