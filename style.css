@@ -410,7 +410,7 @@
         height: 450px;
     }   
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:572px) {
     .travel_img{
         width: 200px;
     }
@@ -433,18 +433,18 @@
         height: 450px;
     }   
 }
-@media screen and (max-width:470px) {
+@media screen and (max-width:480px) {
     .travel_img{
-        width: 200px;
+        width: 150px;
     }
     .travel_img h2{
         font-size: 16px;
     }
     .explore_img img {
-        width: 200px;
+        width: 170px;
     }
     .explore_img {
-        width: 200px;
+        width: 150px;
     }
     .explore_img p{
         font-size: 11px;
