@@ -183,6 +183,7 @@
 .travel_img{
     width: 270px;
     position: relative;
+    flex-grow: 1;
 }
 .travel_img h2{
     position: absolute;
@@ -218,6 +219,9 @@
     margin: 0;
     padding: 0;
     margin-top: 5px;
+}
+.explore_img{
+    flex-grow: 1;
 }
 .explore_img img{
     width: 300.328px;
@@ -385,19 +389,11 @@
     }
 }
 @media screen and (max-width:780px) {
-    .container__img img{
-        width: 300px;
-        height: 300px;
-    }
     .navbar__title {
         display: none;
     }
     .navbar__signup{
         display: none;
-    }
-    .sponsor__image img{
-        width: 300px;
-        height: 300px;
     }
     .search__tools p{
         font-size: 11px;
@@ -406,6 +402,13 @@
         font-size: 11px;
         margin-left: 10px;
     }
+    .sponsor__image img{
+        width: 450px;
+    }
+    .container__img img{
+        width: 450px;
+        height: 450px;
+    }   
 }
 @media screen and (max-width:500px) {
     .travel_img{
@@ -428,7 +431,7 @@
     .container__img img{
         width: 450px;
         height: 450px;
-    }
+    }   
 }
 @media screen and (max-width:470px) {
     .travel_img{
