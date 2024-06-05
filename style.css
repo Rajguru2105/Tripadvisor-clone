@@ -462,3 +462,33 @@
         width: 450px;
     }
 }
+@media screen and (max-width:325px) {
+    .travel_img{
+        width: 100px;
+    }
+    .travel_img h2{
+        font-size: 16px;
+    }
+    .explore_img img {
+        width: 140px;
+    }
+    .explore_img {
+        width: 100px;
+    }
+    .explore_img p{
+        font-size: 11px;
+        padding: 15px;
+        text-align: left;
+    }
+    
+    .travel_img p{
+        font-size: 10px;
+    }
+    .container__img img{
+        width: 400px;
+        height: 400px;
+    }
+    .sponsor__image img{
+        width: 400px;
+    }
+}
